@@ -1,0 +1,23 @@
+
+.transactionRow {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.transactionRow td {
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.transactionRow:nth-child(even) {
+  background-color: #f4f4f4; 
+}
+
+
+.transactionRow:nth-child(odd) {
+  background-color: #ffffff; 
+}
